@@ -16,6 +16,7 @@ fi
 echo "[Info] Install TensorFlow into deps"
 # shellcheck disable=SC2086
 
+echo "[Info] Chuchete"
 
 if ! pip3 install --user --no-cache-dir --prefix= --no-dependencies /tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl; then
     echo "[Error] Can't install TensorFlow package!"
