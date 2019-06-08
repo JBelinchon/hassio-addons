@@ -4,10 +4,10 @@
   "slug": "tensorflow",
   "description": "TensorFlow installer for Home Assistant.",
   "arch": ["amd64"],
-  "url": "https://github.com/hunterjm/hassio-addons/tree/master/tensorflow",
+  "url": "https://github.com/jbelinchon/hassio-addons/tree/master/tensorflow",
   "startup": "once",
   "boot": "manual",
-  "image": "hunterjm/{arch}-addon-tensorflow",
+  "image": "jbelinchon/{arch}-addon-tensorflow",
   "map": ["config:rw"],
   "options": {},
   "schema": {}
