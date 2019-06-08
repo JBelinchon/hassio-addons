@@ -1,4 +1,4 @@
-ARG BUILD_FROM="homeassistant/amd64-base-python:3.6"
+ARG BUILD_FROM="homeassistant/amd64-base-python:3.7"
 FROM $BUILD_FROM
 
 # Copy data
