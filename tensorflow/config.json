@@ -7,7 +7,7 @@
   "url": "https://github.com/jbelinchon/hassio-addons/tree/master/tensorflow",
   "startup": "once",
   "boot": "manual",
-  "image": "jbelinchon/{arch}-addon-tensorflow",
+  "image": "hunterjm/{arch}-addon-tensorflow",
   "map": ["config:rw"],
   "options": {},
   "schema": {}
